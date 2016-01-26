@@ -1,0 +1,394 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Miquelyn Hollingsworth
+Updated: November 2015
+
+Colors:
+Teal = #54aea8
+Salmon = #ee3f53
+Pink = #f494a5
+Gray = #606060
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   #aboutButton {
+      margin-top: 40px;
+      padding-left: 80px;
+   }
+
+   #ourStories {
+      background-color: #f2f2f2;
+      margin-top: -30px;
+      padding-bottom: 20px;
+   }
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   body {
+      -webkit-font-smoothing: antialiased;
+   	text-rendering: optimizelegibility;
+      font-family: 'Rokkitt', serif;
+   }
+
+   p, h1, h2, h3, h4, h5 {
+      -webkit-font-smoothing: antialiased;
+   	text-rendering: optimizelegibility;
+      font-family: 'Rokkitt', serif;
+   }
+
+   p {
+      padding-top: 5px;
+      font-size: 24px;
+   }
+
+   #aboutButton h1 {
+      font-size: 80px;
+   }
+
+   #aboutButton .btn {
+      background: #ee3f53;
+      border: 3px solid white;
+      color: #f2f2f2;
+      font-size: 24px;
+      font-weight: bold;
+      margin-left: 55px;
+   }
+
+   #aboutUs p{
+      font-size: 24px;
+   }
+
+   #ourStories p {
+      font-size: 24px;
+   }
+
+   #ourStories h1 {
+      font-size: 75px;
+      font-weight: bold;
+      color: #ee3f53
+   }
+
+   #author h1 {
+      font-size: 80px;
+   }
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.navbar {
+   background: white;
+   color: black;
+}
+
+.nav {
+   margin-top: 50px;
+   font-size: 24px;
+}
+
+.nav a {
+   padding-left: 25%;
+}
+
+.nav img {
+   margin-top: 30px;
+}
+
+.badge.socialnav {
+   background: #ee3f53;
+   font-size: 28px;
+   height: 40px;
+   width: 40px;
+   text-align: center;
+   line-height: 45px;
+   margin: 50px 5px 20px 0;
+   padding: 0;
+   -webkit-border-radius: 50px;
+   -moz-border-radius: 50px;
+   border-radius: 50px;
+   color: white;
+}
+
+.badge.socialnav:hover {
+   background: #f494a5;
+}
+
+/*.navbar-nav {
+   position:relative;
+   left:25%;
+   font-size: 24px;
+}
+
+ .navbar-brand {
+    float: none;
+    display: inline-block;
+    margin-left: auto;
+ }
+
+ .navbar .navbar-nav > li {
+    float: none;
+    display: inline-block;
+ }
+ /* --------------------------------------
+    Carousel
+    -------------------------------------- */
+ #myCarousel {
+    margin-top: 110px;
+ }
+
+ .carousel-control span {
+    background: #ee3f53;
+
+ }
+
+ /* --------------------------------------
+    Global Styles
+    -------------------------------------- */
+
+
+#aboutUs{
+   background: url('../../images/bluetype.png');
+   color: #f2f2f2;
+}
+
+#aboutUs img {
+   width: 100%;
+}
+
+.btn {
+	-webkit-border-radius: 0;
+	-moz-border-radius:    0;
+	border-radius:         0;
+}
+
+#ourStories .btn {
+   background: none;
+   border: 5px solid #54aea8;
+   color: #000;
+   font-size: 24px;
+   font-weight: bold;
+}
+
+
+#author {
+   background-color: #f494a5;
+   color: #f2f2f2;
+}
+
+#authorDescription {
+   padding: 0 40px;
+}
+
+.thumbnail {
+   margin-top: 30px;
+}
+
+footer {
+   background-color: #54aea8;
+   color: #f2f2f2;
+}
+
+.copy {
+   text-align: center;
+}
+
+img {
+   max-width: 100%;
+}
+
+.badge.social {
+   background: #54aea8;
+   font-size: 28px;
+   height: 40px;
+   width: 40px;
+   text-align: center;
+   line-height: 40px;
+   margin: 0 5px 20px 0;
+   padding: 0 20px;
+   -webkit-border-radius: 50px;
+   -moz-border-radius: 50px;
+   border-radius: 50px;
+   color: white;
+}
+
+#newsletterEmail {
+   width: 200px;
+}
+
+.navbar-form .btn {
+   background: #ee3f53;
+   border: 1px solid white;
+   color: #f2f2f2;
+}
+
+
+ /* --------------------------------------
+    Media Queries
+    -------------------------------------- */
+
+ /* Portrait & landscape phone */
+ @media (max-width: 568px) {
+    #aboutUs {
+      background-size: cover;
+   }
+    #aboutButton {
+       margin-top: 0px;
+       padding-left: 100px;
+    }
+
+    h1 {
+      padding: 5px 25px;
+      margin-top: 0;
+      font-size: 26px;
+    }
+
+     h2 {
+      padding: 5px 25px;
+      font-size: 26px;
+    }
+
+    p {
+      padding: 5px 25px;
+      font-size: 20px;
+    }
+
+    #aboutButton button {
+      font-size: 15px;
+      margin: 0px;
+    }
+
+    #ourStories .btn {
+      margin: 20px;
+    }
+
+    #ourStories h1 {
+      margin: 0px;
+      font-size: 50px;
+    }
+
+ }
+
+ /* Landscape phone to portrait tablet */
+ @media (max-width: 768px) {
+    .carousel-control span {
+       line-height: 15px;
+    }
+    #aboutButton {
+      margin-top: 10px;
+      padding-left: 100px;
+    }
+
+    #aboutButton h1 {
+      margin-top: 0;
+      font-size: 35px;
+    }
+
+    #aboutButton button {
+       font-size: 20px;
+       margin: 0px;
+    }
+
+    #aboutUs {
+      padding: 0px 10px 40px;
+   }
+
+   #authorDescription h2 {
+      padding: 0;
+      font-size: 26px;
+   }
+
+   #authorDescription h1 {
+      padding: 0;
+      font-size: 40px;
+   }
+
+   #authorDescription p{
+      padding: 0;
+   }
+
+   .pull-right {
+      float: none !important;
+   }
+
+   .top-social {
+      margin-left: 40%;
+   }
+
+   .badge.socialnav {
+      background: #ee3f53;
+      font-size: 20px;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      line-height: 35px;
+      margin: 0 5px 10px 0;
+      padding: 0;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      border-radius: 50px;
+      color: white;
+   }
+
+   .nav {
+      margin-top: 0px;
+      font-size: 18px;
+   }
+
+   #aboutButton .btn {
+      font-size: 18px;
+      margin-left: 10%;
+   }
+
+ }
+
+ /* Large desktop */
+ @media (min-width: 991px) {
+    .carousel-control span {
+       background: #ee3f53;
+       display: block;
+       height: 0px;
+       width: 0px;
+       text-align: center;
+       line-height: 20px;
+    	font-weight: bold;
+    	font-size: 24px;
+    	border-radius: 100%;
+    	-webkit-border-radius: 100%;
+    	-moz-border-radius: 100%;
+    	position: absolute;
+       left: 50%;
+   }
+
+   #aboutUs{
+      background: url('../../images/bluetype.png');
+      color: #f2f2f2;
+      padding-top:80px;
+        margin-top:-80px;
+        -ms-transform: skew(0,3deg); /* IE 9 */
+        -webkit-transform: skew(0,3deg); /* Chrome, Safari, Opera */
+        transform: skew(0,3deg);
+    }
+   #aboutUs h2, #aboutUs p {
+      -ms-transform: skew(0,-3deg); /* IE 9 */
+      -webkit-transform: skew(0,-3deg); /* Chrome, Safari, Opera */
+      transform: skew(0,-3deg);
+   }
+
+
+   #aboutButton{
+    margin-top: 40px;
+    padding-left: 80px;
+    -ms-transform: skew(0,-3deg); /* IE 9 */
+    -webkit-transform: skew(0,-3deg); /* Chrome, Safari, Opera */
+    transform: skew(0,-3deg);
+ }
+ }
